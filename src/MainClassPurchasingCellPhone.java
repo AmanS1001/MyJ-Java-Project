@@ -12,16 +12,10 @@ public class MainClassPurchasingCellPhone {
 		SelectOSofCellPhone selectedOS = new SelectOSofCellPhone();
 
 		String brandSelected = selectedOS.cellPhoneOSType(selectOperatingSystem);
-
-		switch (brandSelected) {
-		case "Samsung":
-			System.out.println("Brand selected:Samsung");
-			break;
-		case "Apple":
-			System.out.println("Brand selected:Apple");
-			break;
-		}
+		System.out.println("Brand selected"+brandSelected);
 		System.out.println("Please enter the model that you want to buy: ");
+	
+		
 		
 		
 		
