@@ -10,13 +10,9 @@ public class BookingCruise {
 		System.out.println(
 				"We offer 4 different packages as displayed below :\n1. Scenic Cruise\n2. Sunset Cruise\n3. Discovery Cruise\n4. Mystery Cruise \nPlease enter the cruise that you want to select");
 		Scanner scan = new Scanner(System.in);
-		String selectCruise = scan.nextLine();
-		CruiseDetails cruiseDetails = new CruiseDetails();
-		cruiseDetails.cruiseType(selectCruise);
 
-		
-		
-	
-		
+		DetailsCruise cruiseDetails = new DetailsCruise();
+		cruiseDetails.collectCruiseName();
+
 	}
 }

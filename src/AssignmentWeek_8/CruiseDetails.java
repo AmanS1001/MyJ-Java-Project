@@ -1,9 +1,9 @@
-package AssignmentWeek_7;
+package AssignmentWeek_8;
 
 import java.text.DecimalFormat;
 
 public class CruiseDetails {
-	String cruiseSelection;
+	public String cruiseSelection;
 	double priceForAdult;
 	double priceForchildren;
 	int numDay;
