@@ -2,9 +2,9 @@ package Encapsulation;
 
 public class MobileNumberDetails {
 	public String customerName;
-	private long mobileNumber;
+	private int mobileNumber;
 
-	public MobileNumberDetails(String customerName, long mobileNumber) {
+	public MobileNumberDetails(String customerName, int mobileNumber) {
 
 		this.customerName = customerName;
 		this.mobileNumber = mobileNumber;
